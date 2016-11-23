@@ -26,10 +26,10 @@ Newly created library may be placed into maven repository, if needed, or used di
 
 ```xml
         <dependency>
-       	    <groupId>lv.div.jarproject</groupId>
-       	    <artifactId>mylib</artifactId>
-       	    <version>1.0</version>
-       	</dependency>
+            <groupId>com.github.divlv</groupId> <!-- Your GitHub login (divlv) -->
+            <artifactId>mavenjarlibskeleton</artifactId> <!-- Your GitHub repo name (of library) -->
+            <version>1.0</version> <!-- GitHub lib release version -->
+        </dependency>
 ```
 
 3) Access the **CurrentTimeClass** in your code like this:
